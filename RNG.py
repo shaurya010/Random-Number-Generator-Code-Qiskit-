@@ -1,7 +1,7 @@
 from qiskit import QuantumRegister, ClassicalRegister, QuantumCircuit, execute,IBMQ
 from qiskit.tools.monitor import job_monitor
 
-IBMQ.enable_account('ENTER API TOKEN HERE')
+IBMQ.enable_account('ENTER TOKEN HERE')
 provider = IBMQ.get_provider(hub='ibm-q')
 
 q = QuantumRegister(16,'q')
